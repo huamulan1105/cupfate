@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="从一只小小纸杯里，抽出一点温柔的启发。">
+  <meta property="og:title" content="纸杯命运 · CUPFATE">
+  <meta property="og:description" content="从一只小小纸杯里，抽出此刻的一点启发。抽一张或三张大阿尔卡那牌。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://glimmer-tarot.huahuamulan1105.chatgpt.site">
+  <meta property="og:image" content="https://glimmer-tarot.huahuamulan1105.chatgpt.site/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>纸杯命运 · CUPFATE</title>
+  <link rel="stylesheet" href="../app/globals.css">
+</head>
+<body>
+  <main class="page-shell">
+    <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+    <header class="topbar">
+      <div class="wordmark"><span class="brand-mark cup-mark" aria-hidden="true"><i></i><b></b></span><span><strong id="brand">纸杯命运</strong><small id="subtitle">CUPFATE</small></span></div>
+      <div class="top-actions"><button class="share-button" id="share" aria-label="分享给朋友"><span aria-hidden="true">↗</span><b id="share-label">分享给朋友</b></button><button class="language-switch" id="language" aria-label="切换语言 / Switch language"><span id="zh-label" class="active">中</span><i></i><span id="en-label">EN</span></button></div>
+    </header>
+    <section class="welcome" id="welcome">
+      <div class="cupcake-glyph" aria-hidden="true"><span class="frosting"><i></i><i></i><i></i></span><span class="cup-liner"></span><b>✦</b></div><p class="eyebrow">A MOMENT FOR YOU</p><h1 id="intro"></h1>
+      <div class="choice-block">
+        <div class="mode-grid" id="mode-grid"></div>
+        <label class="question-field" id="question-field" hidden><span id="prompt"></span><textarea id="question" maxlength="120" rows="2"></textarea><small id="counter">0/120</small></label>
+        <div class="count-picker" id="count-picker"></div>
+        <button class="draw-button" id="draw"><span id="draw-label"></span><span aria-hidden="true">✦</span></button>
+      </div>
+    </section>
+    <section class="reading" id="reading" hidden>
+      <p class="eyebrow" id="reading-mode"></p><h1 id="reading-question"></h1><p class="reveal-hint" id="reveal-hint"></p>
+      <div class="cards-layout" id="cards-layout"></div>
+      <div class="reading-actions"><button class="secondary-button" id="redraw"></button><button class="text-button" id="restart"></button></div>
+    </section>
+    <footer><span class="footer-cup" aria-hidden="true"></span><p id="note"></p><span>✦</span></footer>
+    <div class="share-notice" id="share-notice" role="status" aria-live="polite"></div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
