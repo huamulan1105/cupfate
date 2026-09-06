@@ -37,23 +37,7 @@ npm test
 - `public/`：应用图标、分享图、PWA 清单和离线缓存脚本
 - `site/`：静态页面版本
 - `tests/`：渲染验证
-- `skills/cupfate-web-builder/`：可独立安装的 Codex Skill 与项目模板
 - `.openai/hosting.json`：当前 OpenAI Sites 托管项目配置；其中的项目编号不是密钥，fork 后请替换为自己的托管配置
-
-## 安装 Codex Skill
-
-把下面这句话复制给 Codex：
-
-```text
-请从 GitHub 安装这个 Codex Skill：
-https://github.com/huamulan1105/cupfate/tree/main/skills/cupfate-web-builder
-```
-
-安装完成后，在下一轮对话中使用：
-
-```text
-使用 $cupfate-web-builder 创建或调整一个简洁、低饱和、双语的轻量塔罗娱乐网页。
-```
 
 ## 开源与素材
 

@@ -1,0 +1,5 @@
+interface:
+  display_name: "CUPFATE Web Builder"
+  short_description: "创建和维护简洁、双语、低饱和的 CUPFATE 塔罗网页"
+  default_prompt: "Use $cupfate-web-builder to create or adapt a lightweight bilingual tarot entertainment website."
+

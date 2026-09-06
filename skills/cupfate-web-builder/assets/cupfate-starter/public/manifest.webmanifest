@@ -1,0 +1,19 @@
+{
+  "name": "纸杯命运 · CUPFATE",
+  "short_name": "CUPFATE",
+  "description": "一款简洁、客观的双语塔罗娱乐与自我反思工具。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3eee4",
+  "theme_color": "#8f9a87",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/cupfate-icon.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
